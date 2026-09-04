@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="none" stroke="#334155" stroke-width="4" stroke-dasharray="8 8" opacity="0.4"/>
+  
+  <!-- Arcade Cabinet / Gamepad icon -->
+  <g transform="translate(76, 120)">
+    <!-- Controller Body -->
+    <path d="M70,70 C100,20 260,20 290,70 C310,105 340,210 300,240 C260,270 230,220 200,200 C180,186 180,186 160,200 C130,220 100,270 60,240 C20,210 50,105 70,70 Z" fill="#1e293b" stroke="url(#accent)" stroke-width="12" stroke-linejoin="round"/>
+    
+    <!-- Screen / Accent bar -->
+    <rect x="130" y="70" width="100" height="40" rx="10" fill="#0f172a" stroke="#475569" stroke-width="4" />
+    <circle cx="155" cy="90" r="5" fill="#10b981" />
+    <circle cx="180" cy="90" r="5" fill="#f59e0b" />
+    <circle cx="205" cy="90" r="5" fill="#ef4444" />
+    
+    <!-- D-Pad -->
+    <path d="M100,105 L120,105 L120,125 L100,125 L100,145 L80,145 L80,125 L60,125 L60,105 L80,105 L80,85 L100,85 Z" fill="url(#glow)" />
+    
+    <!-- Action Buttons -->
+    <circle cx="280" cy="95" r="14" fill="#ef4444" />
+    <circle cx="250" cy="125" r="14" fill="#3b82f6" />
+    <circle cx="310" cy="125" r="14" fill="#10b981" />
+    <circle cx="280" cy="155" r="14" fill="#f59e0b" />
+    
+    <!-- Arcade Joysticks / Sparks -->
+    <circle cx="180" cy="155" r="8" fill="#e2e8f0" />
+    <path d="M180,155 L180,135" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round" />
+    <circle cx="180" cy="132" r="12" fill="url(#accent)" />
+  </g>
+  <text x="256" y="420" text-anchor="middle" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" letter-spacing="4">ARCADE 10</text>
+</svg>

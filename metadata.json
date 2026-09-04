@@ -1,0 +1,6 @@
+{
+  "name": "10 Arcade Games",
+  "description": "Play 10 classic browser arcade games offline: Pac-Man 256, Crossy Road, Alto's Adventure, Jetpack Joyride, Subway Surfers, Fruit Ninja, Slither.io, Doodle Jump, Temple Run, and Donut County with persistent local high scores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
